@@ -23,21 +23,24 @@ class ViewController: UIViewController {
     
     func createPresentControllerButton () {
         
-        let width: CGFloat = 100
-        let height: CGFloat = width
-        let x: CGFloat = (self.view.frame.width - width) / 2.0
-         let y: CGFloat = (self.view.frame.height - height) / 2.0
+        /*
+         Pay button
+         */
+        let payButtonWidth: CGFloat = 100
+        let payButtonHeight: CGFloat = payButtonWidth
+        let payButtonX: CGFloat = (self.view.frame.width - payButtonWidth) / 2.0
+        let PayButtonY: CGFloat = (self.view.frame.height - payButtonHeight) / 2.0
         
-        let presentControllerButton = UIButton(frame: CGRect(x: x, y: y, width: width, height: height))
-        presentControllerButton.layer.cornerRadius = width / 2.0
+        let presentControllerButton = UIButton(frame: CGRect(x: payButtonX, y: PayButtonY, width: payButtonWidth, height: payButtonHeight))
+        presentControllerButton.layer.cornerRadius = payButtonWidth / 2.0
         presentControllerButton.backgroundColor = UIColor(displayP3Red: 118.0 / 256.0, green: 213.0 / 256.0, blue: 122 / 256.0, alpha: 1.0)
         
         presentControllerButton.setTitle("Pay!", for: .normal)
         presentControllerButton.addTarget(self, action: #selector(didPresentControllerButtonTouch), for: .touchUpInside)
         
-        
         self.view.addSubview(presentControllerButton)
         self.presentControllerButton = presentControllerButton
+        
     }
     
     @objc func didPresentControllerButtonTouch () {
@@ -48,6 +51,19 @@ class ViewController: UIViewController {
         
         self.present(controller, animated: true, completion: nil)
     }
+    
+
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
