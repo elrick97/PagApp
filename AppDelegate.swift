@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import MotionAnimation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        MotionAnimator.sharedInstance.debugEnabled = true
         // Override point for customization after application launch.
         return true
     }
