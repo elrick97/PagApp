@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F34741A213885A7001F9966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F347419213885A7001F9966 /* AppDelegate.swift */; };
+		5F34741C213885A7001F9966 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F34741B213885A7001F9966 /* mainViewController.swift */; };
+		5F34741F213885A7001F9966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F34741D213885A7001F9966 /* Main.storyboard */; };
+		5F347422213885A7001F9966 /* PagApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F347420213885A7001F9966 /* PagApp.xcdatamodeld */; };
+		5F347424213885A8001F9966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F347423213885A8001F9966 /* Assets.xcassets */; };
+		5F347427213885A8001F9966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F347425213885A8001F9966 /* LaunchScreen.storyboard */; };
+		5F347430213886BC001F9966 /* payViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F34742F213886BC001F9966 /* payViewController.swift */; };
+		5F99CEFE213FA577009E3DAB /* eventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F99CEFD213FA577009E3DAB /* eventsViewController.swift */; };
+		5F99CF00213FA68F009E3DAB /* groupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F99CEFF213FA68F009E3DAB /* groupsViewController.swift */; };
+		6EBF94F7B71433FF2BAF449A /* Pods_PagApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F6007FAEDBC6B2BFDA4FC00 /* Pods_PagApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F6007FAEDBC6B2BFDA4FC00 /* Pods_PagApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PagApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		557FC59181FE6991A1117853 /* Pods-PagApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PagApp/Pods-PagApp.release.xcconfig"; sourceTree = "<group>"; };
+		5F2E59941FE1D19D43C4A3E7 /* Pods-PagApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PagApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PagApp/Pods-PagApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5F347416213885A7001F9966 /* PagApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F347419213885A7001F9966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F34741B213885A7001F9966 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		5F34741E213885A7001F9966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F347421213885A7001F9966 /* PagApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PagApp.xcdatamodel; sourceTree = "<group>"; };
+		5F347423213885A8001F9966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F347426213885A8001F9966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F347428213885A8001F9966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F34742F213886BC001F9966 /* payViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payViewController.swift; sourceTree = "<group>"; };
+		5F99CEFD213FA577009E3DAB /* eventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventsViewController.swift; sourceTree = "<group>"; };
+		5F99CEFF213FA68F009E3DAB /* groupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groupsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F347413213885A7001F9966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBF94F7B71433FF2BAF449A /* Pods_PagApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C5C610C3424FAA6E99F8E69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F2E59941FE1D19D43C4A3E7 /* Pods-PagApp.debug.xcconfig */,
+				557FC59181FE6991A1117853 /* Pods-PagApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F34740D213885A7001F9966 = {
+			isa = PBXGroup;
+			children = (
+				5F347418213885A7001F9966 /* PagApp */,
+				5F347417213885A7001F9966 /* Products */,
+				0C5C610C3424FAA6E99F8E69 /* Pods */,
+				FDDFE42CD6F83E5A63EEFF4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F347417213885A7001F9966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F347416213885A7001F9966 /* PagApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F347418213885A7001F9966 /* PagApp */ = {
+			isa = PBXGroup;
+			children = (
+				5F34742E213886AA001F9966 /* Controllers */,
+				5F347419213885A7001F9966 /* AppDelegate.swift */,
+				5F34741D213885A7001F9966 /* Main.storyboard */,
+				5F347423213885A8001F9966 /* Assets.xcassets */,
+				5F347425213885A8001F9966 /* LaunchScreen.storyboard */,
+				5F347428213885A8001F9966 /* Info.plist */,
+				5F347420213885A7001F9966 /* PagApp.xcdatamodeld */,
+			);
+			path = PagApp;
+			sourceTree = "<group>";
+		};
+		5F34742E213886AA001F9966 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F34741B213885A7001F9966 /* mainViewController.swift */,
+				5F34742F213886BC001F9966 /* payViewController.swift */,
+				5F99CEFD213FA577009E3DAB /* eventsViewController.swift */,
+				5F99CEFF213FA68F009E3DAB /* groupsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FDDFE42CD6F83E5A63EEFF4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F6007FAEDBC6B2BFDA4FC00 /* Pods_PagApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F347415213885A7001F9966 /* PagApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F34742B213885A8001F9966 /* Build configuration list for PBXNativeTarget "PagApp" */;
+			buildPhases = (
+				BDDE64FE0F782931372B5673 /* [CP] Check Pods Manifest.lock */,
+				5F347412213885A7001F9966 /* Sources */,
+				5F347413213885A7001F9966 /* Frameworks */,
+				5F347414213885A7001F9966 /* Resources */,
+				1BCCE4839B6DD6EB799A6F21 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagApp;
+			productName = PagApp;
+			productReference = 5F347416213885A7001F9966 /* PagApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F34740E213885A7001F9966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ricardo Ramirez";
+				TargetAttributes = {
+					5F347415213885A7001F9966 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5F347411213885A7001F9966 /* Build configuration list for PBXProject "PagApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F34740D213885A7001F9966;
+			productRefGroup = 5F347417213885A7001F9966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F347415213885A7001F9966 /* PagApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F347414213885A7001F9966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F347427213885A8001F9966 /* LaunchScreen.storyboard in Resources */,
+				5F347424213885A8001F9966 /* Assets.xcassets in Resources */,
+				5F34741F213885A7001F9966 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BCCE4839B6DD6EB799A6F21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PagApp/Pods-PagApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ElasticTransition/ElasticTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/JTMaterialTransition/JTMaterialTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimation/MotionAnimation.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ElasticTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTMaterialTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimation.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PagApp/Pods-PagApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDDE64FE0F782931372B5673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PagApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F347412213885A7001F9966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F99CEFE213FA577009E3DAB /* eventsViewController.swift in Sources */,
+				5F34741C213885A7001F9966 /* mainViewController.swift in Sources */,
+				5F347422213885A7001F9966 /* PagApp.xcdatamodeld in Sources */,
+				5F34741A213885A7001F9966 /* AppDelegate.swift in Sources */,
+				5F99CF00213FA68F009E3DAB /* groupsViewController.swift in Sources */,
+				5F347430213886BC001F9966 /* payViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F34741D213885A7001F9966 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F34741E213885A7001F9966 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F347425213885A8001F9966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F347426213885A8001F9966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F347429213885A8001F9966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F34742A213885A8001F9966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F34742C213885A8001F9966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F2E59941FE1D19D43C4A3E7 /* Pods-PagApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9A3T58L8X;
+				INFOPLIST_FILE = PagApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elrick.PagApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F34742D213885A8001F9966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 557FC59181FE6991A1117853 /* Pods-PagApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T9A3T58L8X;
+				INFOPLIST_FILE = PagApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Elrick.PagApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F347411213885A7001F9966 /* Build configuration list for PBXProject "PagApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F347429213885A8001F9966 /* Debug */,
+				5F34742A213885A8001F9966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F34742B213885A8001F9966 /* Build configuration list for PBXNativeTarget "PagApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F34742C213885A8001F9966 /* Debug */,
+				5F34742D213885A8001F9966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5F347420213885A7001F9966 /* PagApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5F347421213885A7001F9966 /* PagApp.xcdatamodel */,
+			);
+			currentVersion = 5F347421213885A7001F9966 /* PagApp.xcdatamodel */;
+			path = PagApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5F34740E213885A7001F9966 /* Project object */;
+}

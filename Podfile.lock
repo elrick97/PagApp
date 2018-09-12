@@ -1,0 +1,24 @@
+PODS:
+  - ElasticTransition (3.1.1):
+    - MotionAnimation (~> 0.1.2)
+  - JTMaterialTransition (2.0.1)
+  - MotionAnimation (0.1.2)
+
+DEPENDENCIES:
+  - ElasticTransition
+  - JTMaterialTransition
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ElasticTransition
+    - JTMaterialTransition
+    - MotionAnimation
+
+SPEC CHECKSUMS:
+  ElasticTransition: 6c4e4739e32480c864217db912100f3657f6447a
+  JTMaterialTransition: 2350b44b404d1982a7ba755866cc65da452f4eec
+  MotionAnimation: ff5c8fc2e429d7e10d46ae86819ba9759846c343
+
+PODFILE CHECKSUM: 83c757cd480ee8a3274671321d3a6ce969d2c25e
+
+COCOAPODS: 1.5.3
